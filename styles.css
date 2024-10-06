@@ -1,7 +1,8 @@
 /*  your css code here. If applicable */
 .cards{
 	display : flex;
-	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-end;
 }
 img{
 	margin: 10px;
